@@ -1,14 +1,14 @@
 ## Code book
 
-There are 180 rows and 67 columns in the final tidy data set.
+There are 180 rows and 67 columns in the final tidy data set. <br />
 Each row corresponds to one subject doing one activity.
 
 ### Variable names
 
-Column one is the subject and the activity that they were doing (ie 1.LAYING is subject one doing the activity of laying)
+Column one is the subject and the activity that they were doing (ie 1.LAYING is subject one doing the activity of laying) <br />
 The rest of the columns are mean or standard deviation for the measurements that were taken
 
-Please see https://www.coursera.org/learn/data-cleaning/discussions/eoUpRb-JEeW_UhLKov_F2Q
+Please see https://www.coursera.org/learn/data-cleaning/discussions/eoUpRb-JEeW_UhLKov_F2Q <br />
 There the TA said to use only letters and digits in column names so all .,-, and () were removed.
 
 1. Subjectactivity
