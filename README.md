@@ -1,7 +1,8 @@
 ## Steps to get tidy data set
 
-The files for this assignment can be downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-Note that not all of the files will be used to generate the tidy data set.
+The files for this assignment can be downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip <br />
+
+Note that not all of the files will be used to generate the tidy data set.<br />
 Once you set your working directory you can run the run_analysis.R script to generate the tidy data set.
 
 ### Steps in the R code to generate the tidy data set
