@@ -16,6 +16,6 @@ Once you set your working directory you can run the run_analysis.R script to gen
 * Cleaned up column names, removed () and -
 * Added the subjects and activity columns to the dataframe
 * Using activity_labels.txt file, renamed the activities in the dataframe
-* Created a new column (Subject.activity) that combines the subject and the activity
+* Created a new column (Subjectactivity) that combines the subject and the activity
 * Removed the subject column and activity column (since they were combined into one column in the previous step)
-* Created a new tidy data set using the Subject.activity column which contains the average of each variable for each activity and each subject
+* Created a new tidy data set using the Subjectactivity column which contains the average of each variable for each activity and each subject
