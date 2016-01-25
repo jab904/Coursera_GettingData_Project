@@ -1,6 +1,6 @@
 ## Code book
 
-There are 180 rows and 67 columns in the final tidy data set. <br />
+There are 180 rows and 68 columns in the final tidy data set. <br />
 Each row corresponds to one subject doing one activity.
 
 ### Variable names
