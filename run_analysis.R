@@ -51,12 +51,6 @@ z<-as.vector(activity_labels$V2)
 for (i in 1:length(x)) {
   merged_data$Activity<-gsub(x[i], z[i], merged_data$Activity)
 }
-
-## Add new column combinding subject and activey and remove the two old columns
-merged_data$Subjectactivity<-with(merged_data, paste(Subject, Activity, sep="."))
-merged_data$Subject<-NULL
-merged_data$Activity<-NULL
-
-## Create new data set with average for each variable based on Subjectactivity
-q<-aggregate(.~Subjectactivity, merged_data, mean)
+library(dplyr)
+q<-merged_data %>% arrange(Subject, Activity) %>% group_by(Subject, Activity) %>% summarize_each(funs(mean))
 write.table(q, "tidyUCIdata.txt", row.names = F)
